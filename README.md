@@ -1,6 +1,6 @@
 # belex-docker
 
-This repo/project is a stop-gap for general access to GSI Technology's Copperhead belex compiler and will be obsolete when the compiler goes FOSS.
+This repo/project is a stop-gap for general access to GSI Technology's Copperhead belex compiler+APU simulator and will be obsolete when the compiler goes FOSS.
 
 Likely you just want to pull and run pre-built Docker containers (see next section.)
 
@@ -43,6 +43,9 @@ Run the debugger with a breakpoint:
 * Run this pytest function again and it will break in the pudb debugger:
   * ```pytest -s tests/test_belex_hdc_library.py::test_hdc_hamming```
 
+Run the "Game-of-Life" example:
+* In a launched container bash session (see above), run the following:
+  * ```belex-test -t baryon tests/test_belex_game_of_life.py```
 
 ## Build the Docker container(s)
 
