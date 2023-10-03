@@ -47,7 +47,7 @@ Run the "Game-of-Life" example:
 * In a launched container bash session (see above), run the following:
   * ```belex-test -t baryon tests/test_belex_game_of_life.py```
 * Note that there is an issue that prevents all GOL tests to finish.  You can fix it by installing missing libs, cleaning up any build artifacts, and re-running the test:
-  * ```sudo apt install gcc-multilib```
+  * ```apt install gcc-multilib```
   * ```rm -r /root/belex-tests/build```
   * ```belex-test -t baryon tests/test_belex_game_of_life.py```
 
