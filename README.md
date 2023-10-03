@@ -46,8 +46,8 @@ Run the debugger with a breakpoint:
 
 ## Build the Docker container(s)
 
-* You need to ask GSI Technology for access to the BitBucket belex* repositories ((associativecomputing@gsitechnology.com or gwilliams@gsitechnology.com).
+* You need to ask GSI Technology for access to the BitBucket belex* repositories (associativecomputing@gsitechnology.com or gwilliams@gsitechnology.com).
 * Run the build script:
 ```build.sh```
-* By default, it packages up the latest "develop" branch.  If you need something different, change it in the build.sh script.
+* By default, it packages up the latest "develop" branch.  If you need something different, change it at the top of the build.sh script.
 
